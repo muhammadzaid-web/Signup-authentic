@@ -1,0 +1,54 @@
+.sign-up-form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    font-size:2.5rem;
+    text-align:center;
+
+}
+.form{
+    
+    /* background-color:#e6e6e6; */
+    margin-top:2rem;
+    box-shadow:1px 4px 10px rgba(0,0,0,0.25) ;
+    border-radius:1rem;
+    border:1px solid lightgreen;
+    max-width:fit-content;
+    padding:30px 20px;
+    display:grid;
+    gap:1rem;
+}
+#email,#password{
+    width:100%;
+    padding:.3rem 1rem;
+}
+button{
+    padding:.5rem;
+    background-color:skyblue;
+    border-radius:6px;
+    color:white;
+    font-weght:600;
+    transition:all .3s
+}
+button:hover{
+    background-color:#f6f6f6;
+    color:teal;
+    border:1px solid teal;
+    font-weight:700;
+}
+p{
+    color:#555;
+    font-size:.9rem;
+    margin-inline:5px;
+}
+span{
+    cursor:pointer;
+    color:teal;
+    transition:all .3s
+}
+span:hover{
+    font-weight:bold;
+    margin:0 
+}
